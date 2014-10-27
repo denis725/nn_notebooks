@@ -65,7 +65,7 @@ class PlotLoss(object):
 class PlotWeights(object):
     def __init__(self, update_every=1, img_x=None, img_y=None,
                  nrows=5, ncols=5, figsize=(8, 8), vis_layer=None,
-                 nchannel=1):
+                 nchannel=0):
         self.update_every = update_every
         self.img_x = img_x
         self.img_y = img_y
